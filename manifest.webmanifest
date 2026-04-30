@@ -1,0 +1,12 @@
+{
+  "name": "Fan of Balloon: Space Shooter",
+  "short_name": "Fan of Balloon: Space Shooter",
+  "id": "com.example.gamename",
+  "description": "",
+  "orientation": "any",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "black",
+  "categories": ["games", "entertainment"],
+  "icons": []
+}
