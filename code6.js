@@ -5,13 +5,13 @@ gdjs.SUPERULtiMATEEXCALIBURCode.GDNewSprite2Objects1= [];
 gdjs.SUPERULtiMATEEXCALIBURCode.GDNewSprite2Objects2= [];
 
 
-gdjs.SUPERULtiMATEEXCALIBURCode.asyncCallback33349572 = function (runtimeScene, asyncObjectsList) {
+gdjs.SUPERULtiMATEEXCALIBURCode.asyncCallback33351492 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.SUPERULtiMATEEXCALIBURCode.localVariables);
 {gdjs.evtTools.runtimeScene.popScene(runtimeScene);
 }
 gdjs.SUPERULtiMATEEXCALIBURCode.localVariables.length = 0;
 }
-gdjs.SUPERULtiMATEEXCALIBURCode.idToCallbackMap.set(33349572, gdjs.SUPERULtiMATEEXCALIBURCode.asyncCallback33349572);
+gdjs.SUPERULtiMATEEXCALIBURCode.idToCallbackMap.set(33351492, gdjs.SUPERULtiMATEEXCALIBURCode.asyncCallback33351492);
 gdjs.SUPERULtiMATEEXCALIBURCode.eventsList0 = function(runtimeScene) {
 
 {
@@ -21,7 +21,7 @@ gdjs.SUPERULtiMATEEXCALIBURCode.eventsList0 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.SUPERULtiMATEEXCALIBURCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(10.72), (runtimeScene) => (gdjs.SUPERULtiMATEEXCALIBURCode.asyncCallback33349572(runtimeScene, asyncObjectsList)), 33349572, asyncObjectsList);
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(10.72), (runtimeScene) => (gdjs.SUPERULtiMATEEXCALIBURCode.asyncCallback33351492(runtimeScene, asyncObjectsList)), 33351492, asyncObjectsList);
 }
 }
 
